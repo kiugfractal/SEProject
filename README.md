@@ -11,6 +11,4 @@ Phuc Doan - username: kiugfractal
 
 Duc Do - username: volatilegg 
 
-zohaib malik- username: Zee100
-
 Nguyen Bang - username: kinhbang89
