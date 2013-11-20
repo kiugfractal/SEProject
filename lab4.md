@@ -31,26 +31,31 @@ records, leaves, payroll,inventory details in the easiest way. This system autom
 <p>The document does not have the description about the user interface.
 The rest of the structure is close the example in Wikipedia.</p>
 
-**(Use cases)**
+<b>(Use cases)</b>
 <p>System allows users to create and manage multiple employee records, payroll, inventory details </p>
 <p>Yes, it uses flow chart to describe the use case. The charts are arranged logicall, which depicts the sequence of flow of processes which provides an overview to the system. 
 In our opinion, the use case charts are quite clear and easy to understand what users could do with the system. </p>
 
-**(General structure of the system)**
+<b>(General structure of the system)</b>
 <p>They also use flow chart to describe the system and split into many system levels flow.In our opinion, the reason they used flow charts because it fulfilled the requirements for the reader to understand what happends underneath the system process and have clear direction what users could do in specific roles in the system itself. </p>
 
 
-**(Functional & non-functional requirements)**
+<b>(Functional & non-functional requirements)</b>
 * Listed?
 * Measurable/traceability? (is it possible to check from the upcoming end product if a feature / requirement is implemented or not?)
 Ans: 
 Functionalities are not listed clearly. 
 There are two types of users in the system. One is Administrator and other is user in general e.g. employee. 
-Roles of usrers :
-Admisistrator: Admisistrator can create or delete empolyee, 2: administrator can allocate roles to users, 3: add,edit or delete employee details
+<p>Admisistrator: Admisistrator can create or delete empolyee,
+2: administrator can allocate roles to users, 
+3: add,edit or delete employee details
 4: add, update or delete privileges to users. 
-Users have limited access such as user can add or delete data in respective model. 
-**(How does (will) it look?)**
+</p>
+
+<p>Users have limited access such as user can add or delete data in respective model. </p>
+
+
+<b>(How does (will) it look?)</b>
 
 * UI examples / views?
 * Are the pictures mockups or screenshots from existing system?
