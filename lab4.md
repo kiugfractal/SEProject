@@ -55,10 +55,8 @@ Process model does not exist in the document.
 The project might not have a real customer, thus the project came from a R&D center.
 
 **(Your point of view)**
-* Is it a good/bad document? Why?
-* Consider also the quality of diagrams / illustrations
-* Do you think there would be enough information for you to build that system?
-* Etc.
+It is not a perfect software requirement document. On the plus side, it provides enough information about system flow for each role inside with detail flow charts. However, due its nature is only for proposal and research so they dont provide UI mockup or specific plan to develop and deploy the system.  
+
 
 #### Return a link of your github repo to Tuubi. Don't forget to put a link to the document you analyzed. 
 
