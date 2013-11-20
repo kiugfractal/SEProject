@@ -32,12 +32,13 @@ The document does not have the description about the user interface.
 The rest of the structure is close the example in Wikipedia.
 
 **(Use cases)**
-* What the system (will) do?
-* Use case diagram?
-* How cases are described, how much details?
+System allows users to create and manage multiple employee records, payroll, inventory details 
+Yes, it uses flow chart to describe the use case. The charts are arranged logicall, which depicts the sequence of flow of processes which provides an overview to the system. 
+In our opinion, the use case charts are quite clear and easy to understand what users could do with the system. 
 
 **(General structure of the system)**
-* What chart techniques are used? Why?
+They also use flow chart to describe the system and split into many system levels flow.In our opinion, the reason they used flow charts because it fulfilled the requirements for the reader to understand what happends underneath the system process and have clear direction what users could do in specific roles in the system itself. 
+
 
 **(Functional & non-functional requirements)**
 * Listed?
