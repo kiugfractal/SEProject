@@ -43,12 +43,18 @@ In our opinion, the use case charts are quite clear and easy to understand what 
 **(Functional & non-functional requirements)**
 * Listed?
 * Measurable/traceability? (is it possible to check from the upcoming end product if a feature / requirement is implemented or not?)
-
+Ans: 
+Functionalities are not listed clearly. There are two types of users in the system. One is Administrator and other is user in general e.g. employee. 
+Roles of usrers :
+Admisistrator: Admisistrator can create or delete empolyee, 2: administrator can allocate roles to users, 3: add,edit or delete employee details
+4: add, update or delete privileges to users. 
+Users have limited access such as user can add or delete data in respective model. 
 **(How does (will) it look?)**
 
 * UI examples / views?
 * Are the pictures mockups or screenshots from existing system?
 * Transitions between views
+Ans: It is not listed. 
 
 **(Process model? [might not exist, some times in a separate document called ‘project plan’])**
 <p>Process model does not exist in the document.
