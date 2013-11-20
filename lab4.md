@@ -8,11 +8,11 @@
 **2. Report the following things related to the document you found:**
  
 **(Introduction)**
-* What is the project?
+<b>What is the project?</b>
 This is an Employee Management System.
 
 * Overall description of the product (=what is it? can you understand it?)
-The overall description is quite clear. It includes an general introduction, objective, system purpose, dev tools, audience, reference, system decription, and administrator level. 
+<p>The overall description is quite clear. It includes an general introduction, objective, system purpose, dev tools, audience, reference, system decription, and administrator level. </p>
 
 * Target audience?
 Administrator, Developer, Testers, and the Users of the system.
