@@ -44,7 +44,8 @@ In our opinion, the use case charts are quite clear and easy to understand what 
 * Listed?
 * Measurable/traceability? (is it possible to check from the upcoming end product if a feature / requirement is implemented or not?)
 Ans: 
-Functionalities are not listed clearly. There are two types of users in the system. One is Administrator and other is user in general e.g. employee. 
+Functionalities are not listed clearly. 
+There are two types of users in the system. One is Administrator and other is user in general e.g. employee. 
 Roles of usrers :
 Admisistrator: Admisistrator can create or delete empolyee, 2: administrator can allocate roles to users, 3: add,edit or delete employee details
 4: add, update or delete privileges to users. 
