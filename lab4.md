@@ -15,29 +15,29 @@ This is an Employee Management System.
 <p>The overall description is quite clear. It includes an general introduction, objective, system purpose, dev tools, audience, reference, system decription, and administrator level. </p>
 
 * Target audience?
-Administrator, Developer, Testers, and the Users of the system.
+<p>Administrator, Developer, Testers, and the Users of the system.</p>
 
 * The situation?
-A system to manage employee is required. The system must keep the employee's information, update and process them in order for the employer and employee can check schedule, hours of working, salary regularly.
+<p>A system to manage employee is required. The system must keep the employee's information, update and process them in order for the employer and employee can check schedule, hours of working, salary regularly.</p>
 
 * Motivation?
-Employee Management System is a powerful tool to relieve the user from the complicated task of handling employee scheduling manually. This system automates the complete employee scheduling process and allows the user to maintain employee attendance 
-records, leaves, payroll,inventory details in the easiest way. This system automatically sums up employee work hours, time off, shift pays that help to generate the payroll payslips of employees. Employee scheduling tool also facilitates to print various reports including payroll reports, leave details, attendance details, inventory details and employee reports in paper form. This system provides user friendly software which saves the user time and efforts, allowing users to focus on their business goals. The System also handles the inventory management .Appropriate procedures have been applied and defined for collecting, processing, communicating, and archiving quality data & information. 
+<p>Employee Management System is a powerful tool to relieve the user from the complicated task of handling employee scheduling manually. This system automates the complete employee scheduling process and allows the user to maintain employee attendance 
+records, leaves, payroll,inventory details in the easiest way. This system automatically sums up employee work hours, time off, shift pays that help to generate the payroll payslips of employees. Employee scheduling tool also facilitates to print various reports including payroll reports, leave details, attendance details, inventory details and employee reports in paper form. This system provides user friendly software which saves the user time and efforts, allowing users to focus on their business goals. The System also handles the inventory management .Appropriate procedures have been applied and defined for collecting, processing, communicating, and archiving quality data & information. </p>
 
 * Structure
-Employee Management System is a web-based application that can be accessed from anywhere within an Operating System by the authorized users.
+<p>Employee Management System is a web-based application that can be accessed from anywhere within an Operating System by the authorized users.</p>
 
 * Compare the structure of the document with the template provided for the course group work. How does it differ? Is there more? Less? (check also the contents and structure of SRS provided in Wikipedia: 	http://en.wikipedia.org/wiki/Software_requirements_specification). 
-The document does not have the description about the user interface.
-The rest of the structure is close the example in Wikipedia.
+<p>The document does not have the description about the user interface.
+The rest of the structure is close the example in Wikipedia.</p>
 
 **(Use cases)**
-System allows users to create and manage multiple employee records, payroll, inventory details 
-Yes, it uses flow chart to describe the use case. The charts are arranged logicall, which depicts the sequence of flow of processes which provides an overview to the system. 
-In our opinion, the use case charts are quite clear and easy to understand what users could do with the system. 
+<p>System allows users to create and manage multiple employee records, payroll, inventory details </p>
+<p>Yes, it uses flow chart to describe the use case. The charts are arranged logicall, which depicts the sequence of flow of processes which provides an overview to the system. 
+In our opinion, the use case charts are quite clear and easy to understand what users could do with the system. </p>
 
 **(General structure of the system)**
-They also use flow chart to describe the system and split into many system levels flow.In our opinion, the reason they used flow charts because it fulfilled the requirements for the reader to understand what happends underneath the system process and have clear direction what users could do in specific roles in the system itself. 
+<p>They also use flow chart to describe the system and split into many system levels flow.In our opinion, the reason they used flow charts because it fulfilled the requirements for the reader to understand what happends underneath the system process and have clear direction what users could do in specific roles in the system itself. </p>
 
 
 **(Functional & non-functional requirements)**
@@ -51,11 +51,11 @@ They also use flow chart to describe the system and split into many system level
 * Transitions between views
 
 **(Process model? [might not exist, some times in a separate document called ‘project plan’])**
-Process model does not exist in the document.
-The project might not have a real customer, thus the project came from a R&D center.
+<p>Process model does not exist in the document.
+The project might not have a real customer, thus the project came from a R&D center.</p>
 
 **(Your point of view)**
-It is not a perfect software requirement document. On the plus side, it provides enough information about system flow for each role inside with detail flow charts. However, due its nature is only for proposal and research so they dont provide UI mockup or specific plan to develop and deploy the system.  
+<p>It is not a perfect software requirement document. On the plus side, it provides enough information about system flow for each role inside with detail flow charts. However, due its nature is only for proposal and research so they dont provide UI mockup or specific plan to develop and deploy the system.  </p>
 
 
 #### Return a link of your github repo to Tuubi. Don't forget to put a link to the document you analyzed. 
