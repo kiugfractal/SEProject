@@ -51,8 +51,8 @@ They also use flow chart to describe the system and split into many system level
 * Transitions between views
 
 **(Process model? [might not exist, some times in a separate document called ‘project plan’])**
-* Allocation of resources / budget?
-* Risk Analysis?
+Process model does not exist in the document.
+The project might not have a real customer, thus the project came from a R&D center.
 
 **(Your point of view)**
 * Is it a good/bad document? Why?
