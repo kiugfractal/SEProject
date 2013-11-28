@@ -1,5 +1,6 @@
-<h1>A. Use cases scenario and flow chart</h1>
+<h4>Team members: Phuc Doan, Zohaib Malik </h4>
 
+<h1>A. Use cases scenario and flow chart</h1>
 <h2>1. Some use cases:</h2>
 <ul>
   <li>Users enter password and username to login to application so they can use the application.</li>
@@ -21,5 +22,12 @@
 
 
 
-
+<h1>B. User interface</h1>
 ![my test image things](myphotos_icon.jpg)
+
+
+
+
+
+
+
