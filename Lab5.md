@@ -24,6 +24,7 @@
 
 <h1>B. User interface</h1>
 ![my test image things](myphotos_icon.jpg)
+![main page](Capture.jpg)
 
 1.	List the main views of the system
   1: Main page
