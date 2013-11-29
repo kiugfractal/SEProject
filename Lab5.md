@@ -25,9 +25,6 @@
 <h1>B. User interface</h1>
 ![my test image things](myphotos_icon.jpg)
 
-
-B. User Interface
-
 1.	List the main views of the system
   1: Main page
   2: Online Users
@@ -50,6 +47,8 @@ B. User Interface
 3.	Draw a wireframe mockup of your views (either using any online editor, MS Visio, paint or simply by hand with pen an   paper + scan) and push them to your github project.
   
   There are three pictures, first is main page, second shows online users. And third is individual chat. 
+  Main page:
+   
 
 4.	Describe the state transitions between the views, what views you can access from a view, and the opposite, what views lead to a specific view?
 
