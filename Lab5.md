@@ -25,7 +25,7 @@
 <h1>B. User interface</h1>
 
 1.	List the main views of the system
-2.	
+	
 1: Main page
 2: Online Users
 3: Individual chat /group chat 
@@ -48,7 +48,7 @@ This page also show comment box, and at bottom it shows chat: which shows Groups
 Top of page shows name of application, a link to home page and user own name. 
 
 3.	Draw a wireframe mockup of your views (either using any online editor, MS Visio, paint or simply by hand with pen an paper + scan) and push them to your github project.
-4.	
+	
 There are three pictures, first is main page, second shows online users. And third is individual chat.
 
 4.	Describe the state transitions between the views, what views you can access from a view, and the opposite, what views lead to a specific view?
