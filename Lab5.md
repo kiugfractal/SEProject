@@ -24,7 +24,7 @@
 
 <h5>B. User interface</h5>
 
-<h1>1.	List the main views of the system </h1>
+1.	List the main views of the system 
 
 <ul>
  <li>1: Main page</li>
@@ -34,7 +34,7 @@
  <li>5: Setting</li>
 </ul>
 
-</h2>2.	Describe each of the views: what you can see in the view and do with it? What components are included in the view?</h2>
+2.	Describe each of the views: what you can see in the view and do with it? What components are included in the view?
 
 1: Main Page:
   Top of page shows the name of application and user own name. 
@@ -46,11 +46,11 @@
   This page also show comment box, and at bottom it shows chat: which shows Groups’ link (will lead to group page) and    here in the picture, it shows group chat box (this page is minimized) by clicking at top it will enlarge the page       size. 
   Top of page shows name of application, a link to home page and user own name. 
 
-</h3> 3.	Draw a wireframe mockup of your views (either using any online editor, MS Visio, paint or simply by hand with pen an   paper + scan) and push them to your github project.</h3>
+ 3.	Draw a wireframe mockup of your views (either using any online editor, MS Visio, paint or simply by hand with pen an   paper + scan) and push them to your github project.
   
 There are three pictures, first is main page, second shows online users. And third is individual chat. 
  
-</h4>4.	Describe the state transitions between the views, what views you can access from a view, and the opposite, what views lead to a specific view?</h4>
+4.	Describe the state transitions between the views, what views you can access from a view, and the opposite, what views lead to a specific view?
 
 Main page:
   
