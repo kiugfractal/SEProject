@@ -19,7 +19,25 @@
 
 
 <h2>Use case scenario</h2> 
-<p>
+
+<h4>Use case: Chat </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: choose friend -> begin to chat -> exit </li>
+<li>Branching:If friend is not online, user can choose other one to chat or decide to send an offline message to friend</li>
+<li>Other activities: recieve message from other </li>
+<li>End state </li>
+</ul>
+
+<h4>Use case: Upload content </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: choose content to upload -> upload -> content appear on application. </li>
+<li>Branching:If content format is wrong, system will ask to user to input again.</li>
+<li>Other activities: validating upload content </li>
+<li>End state </li>
+</ul>
+
 <h4>Use case: Login </h4> 
 <ul>
 <li>Initial state</li>
@@ -28,4 +46,3 @@
 <li>Other activities: None </li>
 <li>End state </li>
 </ul>
-</p>
