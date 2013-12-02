@@ -7,6 +7,7 @@
 <ul>
 <li>The front-end: the layout, user interface where the users interact with the app.</li>
 <li>The back-end: where the server will receive and process data from the users.</li>
+<p>For deployment, the core code of application is stored on univerisity server and users can access to application as a web application.</p>
 </ul></p>
 
 <h1>Use cases</h1>
