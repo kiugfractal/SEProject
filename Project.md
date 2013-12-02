@@ -11,6 +11,9 @@
 <p>For deployment, the core code of application is stored on univerisity server and users can access to application as a web application.</p>
 
 <h1>Use cases</h1>
+<h2>User group overview</h2> 
+<p>In the system, there are tow user groups: student, teacher and system admin group.  For the teacher and student group, they can login by their ID and name and will be sort by ID. One is available to go and check any group’s status, members or uploaded contents.<p>
+<p>As for system admin group, this user's role is to manage the whole system both in content and technical aspect of the application. System admins have ability to manipulate content of users from teacher and student group. Beside, they also have total control of system so if any problems happen, it will be convenient for them to work on that.</p>
 
 <h1>System architecture</h1>
 
