@@ -22,7 +22,7 @@
 <h2>Use case scenario</h2> 
 
 <p>
-<h4>Use case: Login <h4> 
+<h4>Use case: Login </h4> 
 <ul>
 <li>Initial state</li>
 <li>Normal flow: Login -> Username/Password ok -> main page </li>
@@ -33,7 +33,7 @@
 </p>
 
 <p>
-<h4>Use case: Chat <h4> 
+<h4>Use case: Chat </h4> 
 <ul>
 <li>Initial state</li>
 <li>Normal flow: choose friend -> begin to chat -> exit </li>
@@ -44,7 +44,7 @@
 </p>
 
 <p>
-<h4>Use case: Upload content <h4> 
+<h4>Use case: Upload content </h4> 
 <ul>
 <li>Initial state</li>
 <li>Normal flow: choose content to upload -> upload -> content appear on application. </li>
