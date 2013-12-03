@@ -46,3 +46,12 @@
 <li>Other activities: None </li>
 <li>End state </li>
 </ul>
+
+<h1>System architecture</h1>
+
+<h1>Requirements</h1>
+
+<h1>User Interface</h1>
+
+<h1>Project management, self reflection</h1>
+
