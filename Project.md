@@ -82,6 +82,7 @@
 <h4>Data tier</h4>
 <p>This is where data records of web application are stored.</p>
 
+<h4>Reason</h4>
 <p>
 With this system architecture, we create a separation between every aspect of application which allows each part to be modified and extended without causing any collision for other parts. Moreover, due to that clients cannot have direct access to data storage so everything go in and out of data storage always go through logic tier to check its correctness which ensure the quality of data for end-users.Furthermore, if errors happends, it will be more easy for developers to track down the location of bugs. 
 </p>
