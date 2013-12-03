@@ -6,7 +6,7 @@
 <p>The system will be built on 2 main sides:
 <ul>
 <li>The front-end: the layout, user interface where the users interact with the app.</li>
-<li>The back-end: where the server will receive and process data from the users.</li>
+<li>The back-end: where the server will receive and process data from the users.Beside, this is where application retrive and store data in database.</li>
 </ul></p>
 <p>For deployment, the core code of application is stored on univerisity server and users can access to application as a web application.</p>
 
