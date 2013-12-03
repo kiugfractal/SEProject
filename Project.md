@@ -68,14 +68,53 @@
 </ul>
 
 
-<h4>Use case: Track Other's Location </h4> 
+<h4>Use case: View Group's network </h4> 
 <ul>
 <li>Initial state</li>
-<li>Normal flow: Login -> Username/Password ok -> main page -> display network page</li>
-<li>Branching:If wrong password or username, prompt to ask email for reseting password</li>
+<li>Normal flow: Choose group -> upload contents or chat with users in the group</li>
+<li>Branching:Teacher's upload contents are always in pin post</li>
 <li>Other activities: None </li>
 <li>End state </li>
 </ul>
+
+<h4>Use case: Track Other's Location </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: Choose location section -> Friends' locations appear</li>
+<li>Branching:If check-in button is clicked, user's location will be seen by friends</li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
+<h4>Use case: Create User </h4> 
+<ul>
+
+<li>Initial state</li>
+<li>Normal flow: Choose Add User -> Write user's info -> confirm</li>
+<li>Branching: Grant priviliges to users for helping admins manage the application </li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
+<h4>Use case: Delete content </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: Choose delete content -> click button delete -> exit</li>
+<li>Branching: Admin could delete contents by dragging them to the trash box</li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
+<h4>Use case: Ban User </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: Click ban user -> write reason ->confirm</li>
+<li>Branching: Banning user in the limited of time or forever </li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
+
 
 <h1>System architecture</h1>
 
