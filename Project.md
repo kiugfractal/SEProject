@@ -114,8 +114,9 @@ With this system architecture, we create a separation between every aspect of ap
 <h4>Scalability</h4>
 <ul><li>The application starts with 20 users and grows by 30 users every month.</li></ul>
 <h4>Reliability</h4>
-<ul>The admin of the system is “well trusted” so that user can update everything they want or share, talk about with their friends with no leaked information.</ul>
-<ul>It is quite important to have the back-up server to prevent the sudden accident that could cause low loading or even crash down the whole application</ul> 	
+<ul><li>The admin of the system is “well trusted” so that user can update everything they want or share, talk about with their friends with no leaked information.</li>
+<li>It is quite important to have the back-up server to prevent the sudden accident that could cause low loading or even crash down the whole application</li>
+</ul>	
 
 <h1>User Interface</h1>
 
