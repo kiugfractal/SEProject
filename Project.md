@@ -82,6 +82,14 @@
 <h4>Data tier</h4>
 <p>Check check</p>
 
+
+<h2>Main Modules</h2> 
+
+<h4>Application module</h4> 
+
+<h4>Chat module</h4> 
+
+
 <h1>Requirements</h1>
 
 <h1>User Interface</h1>
