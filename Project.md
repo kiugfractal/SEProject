@@ -67,6 +67,16 @@
 <li>End state </li>
 </ul>
 
+
+<h4>Use case: Track Other's Location </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: Login -> Username/Password ok -> main page -> display network page</li>
+<li>Branching:If wrong password or username, prompt to ask email for reseting password</li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
 <h1>System architecture</h1>
 
 <h2>Overview</h2>
