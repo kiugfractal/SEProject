@@ -72,6 +72,16 @@
 <h2>Overview</h2>
 ![System Arch](systemarch.png)
 
+
+<h4>Presentation tier</h4>
+<p>Check check</p>
+
+<h4>Logic tier</h4>
+<p>Check check</p>
+
+<h4>Data tier</h4>
+<p>Check check</p>
+
 <h1>Requirements</h1>
 
 <h1>User Interface</h1>
