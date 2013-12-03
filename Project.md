@@ -74,13 +74,13 @@
 
 
 <h4>Presentation tier</h4>
-<p>Check check</p>
+<p>In this tier, application provides visual interface of web application to the end-users. Everything is rendered as web application so HTML, CSS and javascript are the the best combination for this task.</p>
 
 <h4>Logic tier</h4>
-<p>Check check</p>
+<p>This is where requests from presentation tier are processed. Additionally, logic tier makes queries to data tier to get data and response back to presentation tier to render that information on screen to end user.</p>
 
 <h4>Data tier</h4>
-<p>Check check</p>
+<p>This is where data records are stored. Only get interact with logic tier.</p>
 
 
 <h2>Main Modules</h2> 
