@@ -12,7 +12,8 @@
 
 <h1>Use cases</h1>
 <h2>User group overview</h2> 
-<p>In the system, there are two user groups: normal user (teachers, student...) and system admin group.  For the teacher and student group, they can login by their ID and name and will be sort by ID. One is available to go and check any group’s status, members or uploaded contents.<p>
+<p>In the system, there are two user groups: normal user (teachers, student...) and system admin group.  For the teacher and student group, they can login using Metropolia ID and will be sort into specific group based on their role on Metropolia ID. One is available to go and check any group’s status, members or uploaded contents.<p>
+
 <p>As for system admin group, this user's role is to manage the whole system both in content and technical aspect of the application. System admins have ability to manipulate content of users from normal user group. Beside, they also have total control of system so if any problems happen, it will be convenient for them to work on that.</p>
 <h2>Use case</h2> 
 ![my Flow chart](usercase.png)
@@ -39,6 +40,25 @@
 </ul>
 
 <h4>Use case: Login </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: Login -> Username/Password ok -> main page </li>
+<li>Branching:If wrong password or username, prompt to ask email for reseting password</li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
+<h4>Use case: Edit Content</h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: Choose content -> Edit content -> Confirm edit -> exit </li>
+<li>Branching:User can forfeit editing by not confirm then exit</li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
+
+<h4>Use case: View  </h4> 
 <ul>
 <li>Initial state</li>
 <li>Normal flow: Login -> Username/Password ok -> main page </li>
