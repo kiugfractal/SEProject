@@ -96,6 +96,26 @@ With this system architecture, we create a separation between every aspect of ap
 
 
 <h1>Requirements</h1>
+<h2>Functional requirements</h2>
+<ul>
+<li>Users can communicate each other by chat section and check people’s location</li>
+<li>Users can see </li>
+<li>Pictures, videos and other media files can be shared.</li>
+<li>Status can be updated in real-time, school’s group lists are categorized.</li>
+<li>Adminstrator can manage users' account</li>
+<li>Administrator can manage all the uploaded content</li>
+</ul>
+
+<h2>Non-functional requirements</h2>
+<h4>Speed</h4>
+<ul><li>The application should be smooth, fast in every devices (especially mobile by J query Mobile</li></ul>
+<h4>Usability</h4>
+<ul><li>The application should be easy to use, and the navigation buttons must be clear to locate in the header for example “Back button” to get back to the previous section must be large and easy to recognize. Moreover, it should have just 1 tap to login, 2 taps to see and comment in updated contents.  </li></ul>
+<h4>Scalability</h4>
+<ul><li>The application starts with 20 users and grows by 30 users every month.</li></ul>
+<h4>Reliability</h4>
+<ul>The admin of the system is “well trusted” so that user can update everything they want or share, talk about with their friends with no leaked information.</ul>
+<ul>It is quite important to have the back-up server to prevent the sudden accident that could cause low loading or even crash down the whole application</ul> 	
 
 <h1>User Interface</h1>
 
