@@ -16,6 +16,9 @@
 
 <p>As for system admin group, this user's role is to manage the whole system both in content and technical aspect of the application. System admins have ability to manipulate content of users from normal user group. Beside, they also have total control of system so if any problems happen, it will be convenient for them to work on that.</p>
 <h2>Use case</h2> 
+![my Flow chart](usercase.png)
+
+
 <h2>Use case scenario</h2> 
 
 <h4>Use case: Chat </h4> 
@@ -64,6 +67,16 @@
 <li>End state </li>
 </ul>
 
+
+<h4>Use case: Track Other's Location </h4> 
+<ul>
+<li>Initial state</li>
+<li>Normal flow: Login -> Username/Password ok -> main page -> display network page</li>
+<li>Branching:If wrong password or username, prompt to ask email for reseting password</li>
+<li>Other activities: None </li>
+<li>End state </li>
+</ul>
+
 <h1>System architecture</h1>
 
 <h2>Overview</h2>
@@ -77,12 +90,7 @@
 <p>This is where requests from presentation tier are processed. Additionally, logic tier makes queries to data tier to get data and response back to presentation tier to render that information on screen to end user.</p>
 
 <h4>Data tier</h4>
-<p>This is where data records of web application are stored.</p>
-
-<h4>Reason</h4>
-<p>
-With this system architecture, we create a separation between every aspect of application which allows each part to be modified and extended without causing any collision for other parts. Moreover, due to that clients cannot have direct access to data storage so everything go in and out of data storage always go through logic tier to check its correctness which ensure the quality of data for end-users.Furthermore, if errors happends, it will be more easy for developers to track down the location of bugs. 
-</p>
+<p>This is where data records are stored. Only get interact with logic tier.</p>
 
 
 <h2>Main Modules</h2> 
