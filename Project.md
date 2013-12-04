@@ -206,6 +206,80 @@ Portability: The application run on a server so user can connect throw the net f
 
 #User Interface
 
+User Interface 
+1: View 
+-	Login 
+-	Register
+-	Main page
+-	Online Users
+-	Individual chat
+-	Groups 
+-	Group chat
+-	Profile
+-	Setting
+    2:  Description
+-	    Login:   
+              User name 	
+              User password
+              Link to registration 
+
+-	    Register: 
+               User name
+               User password
+               First and last name
+               Email address
+
+-	Main page: 
+               1: Main menu
+	            2: Public chat 
+               3: Other Information
+                    1: Main menu: 
+Online users (includes link to group page)
+Profile  
+Search
+Setting
+                     2: Public chat: person can upload or update information, it will appear to everyone. 
+     3: Other information: 
+About us (company information)
+Contact Information 
+Feedback  
+     
+-	Online Users: 
+1: Students/ teachers chat
+2: Link to group chat
+3: Type bar
+
+1: Students/ teachers chat: Right section of page shows teachers (name and room 
+Number) who is online and left side of page shows students (name and room number) who are online. Online user shows those online users that are on contact list. 
+
+2: Link to group chat: Bottom of page shows a link to group page.
+
+3: Type bar: updates and uploads will appear on main page. 
+
+-	Individual chat: 
+              Show users names, ID numbers and location (room number). 
+              Individual chat takes place when user clicks over other user name.
+-	Groups: 
+          Shows list of groups where user is participating. User can chat by clicking   
+             over group name.  
+-	Group chat:  
+             Shows group members who are online and content that they have posted          
+             e.g. files and comments.
+-	Profile:
+              User picture
+          User application using name
+          User first and last name 
+          Email address
+-	Setting: 
+          Change password,
+          Delete group. 
+         Change privacy settings etc. 
+   3: State Transitions
+                            Main page: Main menu link to online user page and to group page. 
+Online users: Link to Group page and main page (public chat).
+Login page to register. And if login is successful main page appears.   
+
+
 #Project management, self reflection
 
 With this social network for indoor navigation, we gave our full effort and hardworking. We spend approximately 12 hours per person for three weeks by group work. Our real objective was to learn software engineering phases and documentations. We were really happy to work as team. The team spirit was really high and focusing. Be-sides, it was really nice to know multiculturalism as a group work. 
