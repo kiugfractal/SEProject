@@ -208,53 +208,54 @@ Portability: The application run on a server so user can connect throw the net f
 
 User Interface 
 1: View 
--	Login 
--	Register
--	Main page
--	Online Users
--	Individual chat
--	Groups 
--	Group chat
--	Profile
--	Setting
-    2:  Description
--	    Login:   
-              User name 	
-              User password
-              Link to registration 
+	1: Login 
+	2: Register
+	3: Main page
+	4: Online Users	
+	5: Individual chat
+	6: Groups 
+	7: Group chat
+	8: Profile
+	9: Setting
+	
+2:  Description
+	      1: Login:   
+        	 	User name 	
+              	 	User password
+              	 	Link to registration 
 
--	    Register: 
-               User name
-               User password
-               First and last name
-               Email address
+	      2: Register: 
+               		User name
+               		User password
+               		First and last name
+               		Email address
 
--	Main page: 
-               1: Main menu
-	            2: Public chat 
-               3: Other Information
-                    1: Main menu: 
-Online users (includes link to group page)
-Profile  
-Search
-Setting
-                     2: Public chat: person can upload or update information, it will appear to everyone. 
-     3: Other information: 
-About us (company information)
-Contact Information 
-Feedback  
+	      3:Main page: 
+               		 a: Main menu
+	            	 b: Public chat 
+        		 c: Other Information
+                    			a: Main menu: 
+						Online users (includes link to group page)
+						Profile  
+						Search
+						Setting
+                     			b: Public chat: person can upload or update information, it will appear to 						                everyone. 
+		 			c: Other information: 
+							About us (company information)
+							Contact Information 
+							Feedback  
      
--	Online Users: 
-1: Students/ teachers chat
-2: Link to group chat
-3: Type bar
+		4: Online Users: 
+			a: Students/ teachers chat
+			b: Link to group chat
+			c: Type bar
 
-1: Students/ teachers chat: Right section of page shows teachers (name and room 
-Number) who is online and left side of page shows students (name and room number) who are online. Online user shows those online users that are on contact list. 
+				a: Students/ teachers chat: Right section of page shows teachers (name and room 
+				Number) who is online and left side of page shows students (name and room number) who 					are online. Online user shows those online users that are on contact list. 
 
-2: Link to group chat: Bottom of page shows a link to group page.
+				b: Link to group chat: Bottom of page shows a link to group page.
 
-3: Type bar: updates and uploads will appear on main page. 
+				c: Type bar: updates and uploads will appear on main page. 
 
 -	Individual chat: 
               Show users names, ID numbers and location (room number). 
