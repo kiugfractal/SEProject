@@ -234,28 +234,30 @@ User Interface
                		 a: Main menu
 	            	 b: Public chat 
         		 c: Other Information
-                    			a: Main menu: 
+                    		a: Main menu: 
 						Online users (includes link to group page)
 						Profile  
 						Search
 						Setting
-                     			b: Public chat: person can upload or update information, it will appear to 						                everyone. 
-		 			c: Other information: 
+                     		b: Public chat: person can upload or update information, it will appear to everyone. 
+		 			
+		 		c: Other information: 
 							About us (company information)
 							Contact Information 
 							Feedback  
      
 		4: Online Users: 
+		
 			a: Students/ teachers chat
 			b: Link to group chat
 			c: Type bar
 
-				a: Students/ teachers chat: Right section of page shows teachers (name and room 
-				Number) who is online and left side of page shows students (name and room number) who 					are online. Online user shows those online users that are on contact list. 
+			a: Students/ teachers chat: Right section of page shows teachers (name and room 
+			Number) who is online and left side of page shows students (name and room number) who 					are online. Online user shows those online users that are on contact list. 
 
-				b: Link to group chat: Bottom of page shows a link to group page.
+			b: Link to group chat: Bottom of page shows a link to group page.
 
-				c: Type bar: updates and uploads will appear on main page. 
+			c: Type bar: updates and uploads will appear on main page. 
 
 -	Individual chat: 
               Show users names, ID numbers and location (room number). 
