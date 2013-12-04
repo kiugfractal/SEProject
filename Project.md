@@ -58,16 +58,6 @@
 </ul>
 
 
-<h4>Use case: View  </h4> 
-<ul>
-<li>Initial state</li>
-<li>Normal flow: Login -> Username/Password ok -> main page </li>
-<li>Branching:If wrong password or username, prompt to ask email for reseting password</li>
-<li>Other activities: None </li>
-<li>End state </li>
-</ul>
-
-
 <h4>Use case: View Group's network </h4> 
 <ul>
 <li>Initial state</li>
