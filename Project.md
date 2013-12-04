@@ -17,7 +17,7 @@
 <p>As for system admin group, this user's role is to manage the whole system both in content and technical aspect of the application. System admins have ability to manipulate content of users from normal user group. Beside, they also have total control of system so if any problems happen, it will be convenient for them to work on that.</p>
 <h2>Use case</h2> 
 
-<img src="https://github.com/kiugfractal/SEProject/blob/ducdau/usercase.png" />
+![dauxanh](usercase.png)
 
 
 <h2>Use case scenario</h2> 
