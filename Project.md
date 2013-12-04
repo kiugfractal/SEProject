@@ -79,6 +79,78 @@ Branching:Teacher's upload contents are always in pin post
 Other activities: None 
 
 End state 
+<<<<<<< HEAD
+
+
+####Use case: Track Other's Location
+
+Initial state
+
+Normal flow: Choose location section -> Friends' locations appear
+
+Branching:If check-in button is clicked, user's location will be seen by friends
+
+Other activities: None 
+
+End state 
+
+
+####Use case: Create User
+
+Initial state
+
+Normal flow: Choose Add User -> Write user's info -> confirm
+
+Branching: Grant priviliges to users for helping admins manage the application 
+
+Other activities: None 
+
+End state 
+
+
+####Use case: Delete content
+
+Initial state
+
+Normal flow: Choose delete content -> click button delete -> exit
+
+Branching: Admin could delete contents by dragging them to the trash box
+
+Other activities: None 
+
+End state 
+
+
+####Use case: Ban User
+
+Initial state
+
+Normal flow: Click ban user -> write reason ->confirm
+
+Branching: Banning user in the limited of time or forever 
+
+Other activities: None 
+
+End state 
+
+
+
+
+#System architecture
+
+##Overview
+![System Arch](systemarch.png)
+
+
+####Presentation tier
+In this tier, application provides visual interface of web application to the end-users. Everything is rendered as web application so HTML, CSS and javascript are the the best combination for this task.
+
+####Logic tier
+This is where requests from presentation tier are processed. Additionally, logic tier makes queries to data tier to get data and response back to presentation tier to render that information on screen to end user.
+
+####Data tier
+This is where data records are stored. Only get interact with logic tier.
+=======
 
 
 ####Use case: Track Other's Location
@@ -159,6 +231,65 @@ This is where data records are stored. Only get interact with logic tier.
 
 
 #Requirements
+##Functional requirements
+ 
+Users can communicate each other by chat section and check people’s location
+
+Users can see 
+
+Pictures, videos and other media files can be shared.
+
+Status can be updated in real-time, school’s group lists are categorized.
+
+Adminstrator can manage users' account
+
+Administrator can manage all the uploaded content
+
+
+##Non-functional requirements
+
+####Usability
+ 
+The application should be easy to use, and the navigation buttons must be clear to locate in the header for example “Back button” to get back to the previous section must be large and easy to recognize. Moreover, it should have just 1 tap to login, 2 taps to see and comment in updated contents. 
+
+
+####Efficiency#### 
+We limit the file size to improve the processing speed to make users' experience better 
+
+The layout is simple to help new users use the application easier 
+
+Functions like 'Search' or 'Help' are placed in the front layout in order to help the user
+
+####Reliability
+ 
+The admin of the system is “well trusted” so that user can update everything they want or share, talk about with their friends with no leaked information. 
+
+It is quite important to have the back-up server to prevent the sudden accident that could cause low loading or even crash down the whole application 
+>>>>>>> ducdau
+
+The users' information is protected and sercured by system 
+
+<<<<<<< HEAD
+##Main Modules 
+
+####Application module
+
+####Chat module
+=======
+
+####Other non-functional requirements
+ 
+Speed: The application should be smooth, fast in every devices (especially mobile by J query Mobile 
+
+Flexibility: Application can run with full function on all major browsers PC and mobile: Chrome, Firefox, Safari (on IE) 
+>>>>>>> ducdau
+
+Portability: The application run on a server so user can connect throw the net from anywhere. 
+
+<<<<<<< HEAD
+#Requirements
+=======
+>>>>>>> ducdau
 
 #User Interface
 
