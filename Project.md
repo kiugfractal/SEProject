@@ -158,7 +158,9 @@ This is where data records are stored. Only get interact with logic tier.
 ####Chat module
 
 
-#Requirements ##Functional requirements Users can communicate each other by chat section and check people’s location Users can see Pictures, videos and other media files can be shared. Status can be updated in real-time, school’s group lists are categorized. Adminstrator can manage users' account Administrator can manage all the uploaded content
+#Requirements 
+
+##Functional requirements Users can communicate each other by chat section and check people’s location Users can see Pictures, videos and other media files can be shared. Status can be updated in real-time, school’s group lists are categorized. Adminstrator can manage users' account Administrator can manage all the uploaded content
 
 ##Non-functional requirements
 
