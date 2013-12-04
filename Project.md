@@ -16,13 +16,9 @@
 
 <p>As for system admin group, this user's role is to manage the whole system both in content and technical aspect of the application. System admins have ability to manipulate content of users from normal user group. Beside, they also have total control of system so if any problems happen, it will be convenient for them to work on that.</p>
 <h2>Use case</h2> 
-[my Flow chart](usercase.png)
 
-lets have some text here
+![my Flow chart](usercase.png)
 
-[this is a test](usercase.png)
-
-not to mess with other tags
 
 <h2>Use case scenario</h2> 
 
