@@ -18,6 +18,11 @@
 <h2>Use case</h2> 
 [my Flow chart](usercase.png)
 
+lets have some text here
+
+[this is a test](usercase.png)
+
+not to mess with other tags
 
 <h2>Use case scenario</h2> 
 
