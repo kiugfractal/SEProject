@@ -259,28 +259,29 @@ User Interface
 
 			c: Type bar: updates and uploads will appear on main page. 
 
--	Individual chat: 
-              Show users names, ID numbers and location (room number). 
-              Individual chat takes place when user clicks over other user name.
--	Groups: 
-          Shows list of groups where user is participating. User can chat by clicking   
-             over group name.  
--	Group chat:  
-             Shows group members who are online and content that they have posted          
-             e.g. files and comments.
--	Profile:
-              User picture
-          User application using name
-          User first and last name 
-          Email address
--	Setting: 
-          Change password,
-          Delete group. 
-         Change privacy settings etc. 
-   3: State Transitions
-                            Main page: Main menu link to online user page and to group page. 
-Online users: Link to Group page and main page (public chat).
-Login page to register. And if login is successful main page appears.   
+		4: Individual chat: 
+              		Show users names, ID numbers and location (room number). 
+              		Individual chat takes place when user clicks over other user name.
+		5: Groups: 
+          		Shows list of groups where user is participating. User can chat by clicking   
+             		over group name.  
+		6: Group chat:  
+             		Shows group members who are online and content that they have posted          
+             		e.g. files and comments.
+		7: Profile:
+              		User picture
+          		User application using name
+          		User first and last name 
+          		Email address
+		8: Setting: 
+          		Change password
+          		Delete group
+         	Change privacy settings etc. 
+         	
+3: State Transitions
+                       Main page: Main menu link to online user page and to group page.
+                       Online users: Link to Group page and main page (public chat).
+                       Login page to register. And if login is successful main page appears.   
 
 
 #Project management, self reflection
