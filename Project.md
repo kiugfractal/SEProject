@@ -207,5 +207,22 @@ Portability: The application run on a server so user can connect throw the net f
 #User Interface
 
 #Project management, self reflection
+
+With this social network for indoor navigation, we gave our full effort and hardworking. We spend approximately 12 hours per person for three weeks by group work. We cre-ated our own "facebook group" for this project. In this page we discuss our progress , updating our task and scheduling meeting time (https://www.facebook.com/groups/384943281583345)
+Our real objective was to learn software engineering phases and documentations. We were really happy to work as team. The team spirit was really high and focusing. Be-sides, it was really nice to know multiculturalism as a group work. 
+
+####Week 1: Requirement and  Designing
+Our idea was to implement social network in Indoor Navigation APP. So, we came out of some simple and powerful concept for this project. We mentioned to add chat room by ID, updating status or media file by student as well as teacher. Besides, we can track our Metropolia friends by his/her location. To do this following task we start writing documentation and designing phases. Firstly, we came up with use case diagrams, flow charts, user interfaces and layouts consequently. All this phase are aforementioned in detail.
+
+####Week 2: Implementation
+We did not implement our project. We just focused on requirements, new technologies, designing and understanding the documentations.  
+
+####Week 3: Documentation
+We followed all the required knowledge based on this course. We had two phases:
+pre-hand phase and after-hand phase. We brainstormed, conceptualized, mapped and also focused on new technologies that are available in the market in the first phase. For the next step, we followed more deeply in software works.
+      
+We estimated that at least two weeks is required to finish this project, however it took us 1 more week. Lacking of documenting and time management skills of our group members are the major reasons.
+We would like to continue this project and implement this in real life someday, and hopefully, the teachers and students will find this extra feature interesting.
+
 Hello this from my branch
 
