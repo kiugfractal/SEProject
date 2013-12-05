@@ -456,6 +456,7 @@ User Interface
 
 ![Online Users](Capture2.PNG)
 
+![Individual Chat](Capture3.jpg)
 
 #Project management, self reflection
 
