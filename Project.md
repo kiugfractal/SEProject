@@ -25,115 +25,184 @@ As for system admin group, this user's role is to manage the whole system both i
 
 ####Use case: Chat####
 -Initial state
--Normal flow: choose friend -> begin to chat -> exit 
--Branching:If friend is not online, user can choose other one to chat or decide to send an offline message to friend
+ *Go to web page on browser 
+ *Login
+ *Go to chat interface
+ *Choose friends you want to communicate 
+ *begin to chat 
+ *Exit 
+ End state
+-Branching:
+If friend is not online, user can choose other one to chat or decide to send an offline message to friend
+If network has problem, the message or attachment might not be received 
+
 -Other activities: recieve message from other 
--End state 
+ 
 
 
 ####Use case: Upload content####
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Login
+*Go to upload interface
+*Choose content you want to upload
+*Confirm upload acitivity
+*Content appear on application
+*Exit
+*End state
 
-Normal flow: choose content to upload -> upload -> content appear on application. 
-
-Branching:If content format is wrong, system will ask user to input again.
+-Branching:
+If content format is wrong, system will ask user to input again.
+If content size is over the limit, system will ask user to input again.
+If the network has problem, the content cannot be uploaded.
+If the FTP has problem, the transfering data cannot be complete and your content will lose data compare to origin file.
 
 Other activities: validating upload content 
 
-End state 
-
+ 
 
 ####Use case: Login
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Put Username/Password
+*Confirm login
+*Reach to main page
+*End state 
 
-Normal flow: Login -> Username/Password ok -> main page 
+-Branching:
+If password or username is wrong, prompt to ask email for reseting password or ask for signing up a new account
+If put wrong password or username more than 5 times in a row, lock that account until user unlock it through the email.
 
-Branching:If wrong password or username, prompt to ask email for reseting password
+-Other activities:
+Reset password or create new account if you can login 
+Lock account if the password or username input is wrong 5 times in a row
 
-Other activities: None 
 
-End state 
 
 
 ####Use case: Edit Content 
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Login
+*Go to browse content interface
+*Choose content 
+*Edit content 
+*Confirm edit 
+*Exit 
+*End state 
 
-Normal flow: Choose content -> Edit content -> Confirm edit -> exit 
+-Branching: 
+User can forfeit editing by not confirm then exit
+User may not have the authority to manage the content, you can only edit your own content or the one that is shared with you
 
-Branching:User can forfeit editing by not confirm then exit
+-Other activities: None 
 
-Other activities: None 
 
-End state 
 
 
 ####Use case: View Group's network
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Login
+*Go to chat interface
+*Choose group 
+*The group's view will display
+*Upload contents or chat with users in the group
+*Exit
+*End state 
 
-Normal flow: Choose group -> upload contents or chat with users in the group
-
-Branching: 
+-Branching: 
+If the network has problem, the network view will not display
 
 Other activities: None 
 
-End state 
+
 
 
 ####Use case: Track Other's Location
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Login
+*Go to location interface
+*Choose user you want to track location
+*Display his/her location
+*Exit
+*End state
 
-Normal flow: Choose location section -> Friends' locations appear
+-Branching: 
+If the user you track does not share his/her location, it will not display
+The location can be delayed, thus of the data transfer processing
 
-Branching: 
+-Other activities: None
 
-Other activities: None 
-
-End state 
 
 
 ####Use case: Create User
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Choose Add User 
+*Put in account information
+*Confirm
+*Active account through email or sms message
+*Try login
+*Exit
+*End state
 
-Normal flow: Choose Add User -> Write user's info -> confirm
+-Branching: 
+If creating user fails, the system will show errors for the admin( for example: the user or email is available already, the password is not sercure enough, compulsory information was missing)
 
-Branching: If createing user fails, the system will show errors for the admin( for example: the user is available already)
+-Other activities: 
+Grant priviliges to users for helping admins manage the application  
 
-Other activities: Grant priviliges to users for helping admins manage the application  
-
-End state 
+ 
 
 
 ####Use case: Delete content
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Login admin account
+*Go to content manage content interface
+*Choose content
+*Delete content
+*Confirm once more
+*Exit
+*End state
 
-Normal flow: Choose delete content -> click button delete -> exit
+-Branching: 
+There is a confirm button if the admin delete something wrong
 
-Branching: There will be a limited amount of memory to store what 'd been deleted, so admin could restore
+-Other activities: 
+Admin could delete contents by dragging them to the trash box 
+There will be a limited amount of memory to store what 'd been deleted, so admin could restore
 
-Other activities: Admin could delete contents by dragging them to the trash box 
-
-End state 
-
+ 
 
 ####Use case: Ban User
 
-Initial state
+-Initial state
+*Go to web page on browser 
+*Login admin account
+*Go to content manage user interface
+*Choose user
+*Choose banned period
+*Put banned reason
+*Confirm 
+*Exit
+*End state
 
-Normal flow: Click ban user -> write reason ->confirm
 
-Branching: 
+-Branching: 
+If the admin ban the wrong user, one can unbanned that user
 
-Other activities: None 
-
-End state 
-
+-Other activities: 
+Unbanned the user
 
 
 
