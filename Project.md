@@ -446,7 +446,11 @@ User Interface
 3: State Transitions
                        Main page: Main menu link to online user page and to group page.
                        Online users: Link to Group page and main page (public chat).
-                       Login page to register. And if login is successful main page appears.   
+                       Login page to register. And if login is successful main page appears. 
+
+4: User Interface Pictures
+
+![Main page](Capture3.PNG)
 
 
 #Project management, self reflection
