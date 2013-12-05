@@ -37,7 +37,7 @@ Initial state
 
 Normal flow: choose content to upload -> upload -> content appear on application. 
 
-Branching:If content format is wrong, system will ask to user to input again.
+Branching:If content format is wrong, system will ask user to input again.
 
 Other activities: validating upload content 
 
@@ -69,13 +69,15 @@ Other activities: None
 
 End state 
 
+
 ####Use case: View Group's network
 
 Initial state
 
 Normal flow: Choose group -> upload contents or chat with users in the group
 
-Branching:Teacher's upload contents are always in pin post
+Branching: 
+
 Other activities: None 
 
 End state 
@@ -87,7 +89,7 @@ Initial state
 
 Normal flow: Choose location section -> Friends' locations appear
 
-Branching:If check-in button is clicked, user's location will be seen by friends
+Branching: 
 
 Other activities: None 
 
@@ -100,9 +102,9 @@ Initial state
 
 Normal flow: Choose Add User -> Write user's info -> confirm
 
-Branching: Grant priviliges to users for helping admins manage the application 
+Branching: If createing user fails, the system will show errors for the admin( for example: the user is available already)
 
-Other activities: None 
+Other activities: Grant priviliges to users for helping admins manage the application  
 
 End state 
 
@@ -113,9 +115,9 @@ Initial state
 
 Normal flow: Choose delete content -> click button delete -> exit
 
-Branching: Admin could delete contents by dragging them to the trash box
+Branching: There will be a limited amount of memory to store what 'd been deleted, so admin could restore
 
-Other activities: None 
+Other activities: Admin could delete contents by dragging them to the trash box 
 
 End state 
 
@@ -126,7 +128,7 @@ Initial state
 
 Normal flow: Click ban user -> write reason ->confirm
 
-Branching: Banning user in the limited of time or forever 
+Branching: 
 
 Other activities: None 
 
