@@ -450,7 +450,11 @@ User Interface
 
 4: User Interface Pictures
 
+![Login & register page](Capture.PNG)
+
 ![Main page](Capture3.PNG)
+
+![Online Users](Capture2.PNG)
 
 
 #Project management, self reflection
