@@ -25,113 +25,278 @@ As for system admin group, this user's role is to manage the whole system both i
 
 ####Use case: Chat####
 -Initial state
--Normal flow: choose friend -> begin to chat -> exit 
--Branching:If friend is not online, user can choose other one to chat or decide to send an offline message to friend
+ *Go to web page on browser 
+ 
+ *Login
+ 
+ *Go to chat interface
+ 
+ *Choose friends you want to communicate 
+ 
+ *begin to chat 
+ 
+ *Exit 
+ 
+*End state
+
+-Branching:
+If friend is not online, user can choose other one to chat or decide to send an offline message to friend
+
+If network has problem, the message or attachment might not be received 
+
 -Other activities: recieve message from other 
--End state 
+ 
 
 
 ####Use case: Upload content####
 
-Initial state
+-Initial state
 
-Normal flow: choose content to upload -> upload -> content appear on application. 
+*Go to web page on browser 
 
-Branching:If content format is wrong, system will ask to user to input again.
+*Login
+
+*Go to upload interface
+
+*Choose content you want to upload
+
+*Confirm upload acitivity
+
+*Content appear on application
+
+*Exit
+
+*End state
+
+-Branching:
+
+If content format is wrong, system will ask user to input again.
+
+If content size is over the limit, system will ask user to input again.
+
+If the network has problem, the content cannot be uploaded.
+
+If the FTP has problem, the transfering data cannot be complete and your content will lose data compare to origin 
+file.
 
 Other activities: validating upload content 
 
-End state 
-
+ 
 
 ####Use case: Login
 
-Initial state
+-Initial state
 
-Normal flow: Login -> Username/Password ok -> main page 
+*Go to web page on browser 
 
-Branching:If wrong password or username, prompt to ask email for reseting password
+*Put Username/Password
 
-Other activities: None 
+*Confirm login
 
-End state 
+*Reach to main page
+
+*End state 
+
+
+-Branching:
+
+If password or username is wrong, prompt to ask email for reseting password or ask for signing up a new account
+
+If put wrong password or username more than 5 times in a row, lock that account until user unlock it through the email.
+
+-Other activities:
+
+Reset password or create new account if you can login 
+
+Lock account if the password or username input is wrong 5 times in a row
+
+
 
 
 ####Use case: Edit Content 
 
-Initial state
+-Initial state
 
-Normal flow: Choose content -> Edit content -> Confirm edit -> exit 
+*Go to web page on browser 
 
-Branching:User can forfeit editing by not confirm then exit
+*Login
 
-Other activities: None 
+*Go to browse content interface
 
-End state 
+*Choose content 
+
+*Edit content 
+
+*Confirm edit 
+
+*Exit 
+
+*End state 
+
+-Branching: 
+
+User can forfeit editing by not confirm then exit
+
+User may not have the authority to manage the content, you can only edit your own content or the one that is shared with you
+
+-Other activities: None 
+
+
+
 
 ####Use case: View Group's network
 
-Initial state
+-Initial state
 
-Normal flow: Choose group -> upload contents or chat with users in the group
+*Go to web page on browser 
 
-Branching:Teacher's upload contents are always in pin post
+*Login
+
+*Go to chat interface
+
+*Choose group 
+
+*The group's view will display
+
+*Upload contents or chat with users in the group
+
+*Exit
+
+*End state 
+
+-Branching: 
+
+If the network has problem, the network view will not display
+
 Other activities: None 
 
-End state 
+
 
 
 ####Use case: Track Other's Location
 
-Initial state
+-Initial state
 
-Normal flow: Choose location section -> Friends' locations appear
+*Go to web page on browser 
 
-Branching:If check-in button is clicked, user's location will be seen by friends
+*Login
 
-Other activities: None 
+*Go to location interface
 
-End state 
+*Choose user you want to track location
+
+*Display his/her location
+
+*Exit
+
+*End state
+
+-Branching: 
+
+If the user you track does not share his/her location, it will not display
+
+The location can be delayed, thus of the data transfer processing
+
+
+-Other activities: None
+
 
 
 ####Use case: Create User
 
-Initial state
+-Initial state
 
-Normal flow: Choose Add User -> Write user's info -> confirm
+*Go to web page on browser 
 
-Branching: Grant priviliges to users for helping admins manage the application 
+*Choose Add User 
 
-Other activities: None 
+*Put in account information
 
-End state 
+*Confirm
+
+*Active account through email or sms message
+
+*Try login
+
+*Exit
+
+*End state
+
+
+-Branching: 
+
+If creating user fails, the system will show errors for the admin( for example: the user or email is available already, the password is not sercure enough, compulsory information was missing)
+
+-Other activities: 
+
+Grant priviliges to users for helping admins manage the application  
+
+ 
 
 
 ####Use case: Delete content
 
-Initial state
+-Initial state
 
-Normal flow: Choose delete content -> click button delete -> exit
+*Go to web page on browser 
 
-Branching: Admin could delete contents by dragging them to the trash box
+*Login admin account
 
-Other activities: None 
+*Go to content manage content interface
 
-End state 
+*Choose content
 
+*Delete content
+
+*Confirm once more
+
+*Exit
+
+*End state
+
+-Branching: 
+
+There is a confirm button if the admin delete something wrong
+
+-Other activities: 
+
+Admin could delete contents by dragging them to the trash box 
+
+There will be a limited amount of memory to store what 'd been deleted, so admin could restore
+
+ 
 
 ####Use case: Ban User
 
-Initial state
+-Initial state
 
-Normal flow: Click ban user -> write reason ->confirm
+*Go to web page on browser 
 
-Branching: Banning user in the limited of time or forever 
+*Login admin account
 
-Other activities: None 
+*Go to content manage user interface
 
-End state 
+*Choose user
 
+*Choose banned period
+
+*Put banned reason
+
+*Confirm 
+
+*Exit
+
+*End state
+
+
+
+-Branching: 
+
+If the admin ban the wrong user, one can unbanned that user
+
+-Other activities: 
+
+Unbanned the user
 
 
 
@@ -205,6 +370,84 @@ Flexibility: Application can run with full function on all major browsers PC and
 Portability: The application run on a server so user can connect throw the net from anywhere.
 
 #User Interface
+
+User Interface 
+1: View 
+	1: Login 
+	2: Register
+	3: Main page
+	4: Online Users	
+	5: Individual chat
+	6: Groups 
+	7: Group chat
+	8: Profile
+	9: Setting
+	
+2:  Description
+	      1: Login:   
+        	 	User name 	
+              	 	User password
+              	 	Link to registration 
+
+	      2: Register: 
+               		User name
+               		User password
+               		First and last name
+               		Email address
+
+	      3:Main page: 
+               		 a: Main menu
+	            	 b: Public chat 
+        		 c: Other Information
+                    		a: Main menu: 
+						Online users (includes link to group page)
+						Profile  
+						Search
+						Setting
+                     		b: Public chat: person can upload or update information, it will appear to everyone. 
+		 			
+		 		c: Other information: 
+							About us (company information)
+							Contact Information 
+							Feedback  
+     
+		4: Online Users: 
+		
+			a: Students/ teachers chat
+			b: Link to group chat
+			c: Type bar
+
+			a: Students/ teachers chat: Right section of page shows teachers (name and room 
+			Number) who is online and left side of page shows students (name and room number) who 					are online. Online user shows those online users that are on contact list. 
+
+			b: Link to group chat: Bottom of page shows a link to group page.
+
+			c: Type bar: updates and uploads will appear on main page. 
+
+		4: Individual chat: 
+              		Show users names, ID numbers and location (room number). 
+              		Individual chat takes place when user clicks over other user name.
+		5: Groups: 
+          		Shows list of groups where user is participating. User can chat by clicking   
+             		over group name.  
+		6: Group chat:  
+             		Shows group members who are online and content that they have posted          
+             		e.g. files and comments.
+		7: Profile:
+              		User picture
+          		User application using name
+          		User first and last name 
+          		Email address
+		8: Setting: 
+          		Change password
+          		Delete group
+         	Change privacy settings etc. 
+         	
+3: State Transitions
+                       Main page: Main menu link to online user page and to group page.
+                       Online users: Link to Group page and main page (public chat).
+                       Login page to register. And if login is successful main page appears.   
+
 
 #Project management, self reflection
 
