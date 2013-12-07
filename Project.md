@@ -113,78 +113,37 @@ As for system admin group, this user's role is to manage the whole system both i
 * End state: Exit
 * What could go wrong: 
 	* If creating user fails, the system will show errors for the admin( for example: the user or email is available already, the password is not sercure enough, compulsory information was missing)
-* Other activities: None
-
-Grant priviliges to users for helping admins manage the application  
-
- 
-
+* Other activities: Grant priviliges to users for helping admins manage the application  
 
 ####Use case: Delete content
+* Initial state: Login as admin, go to manage content interface
+* Normal flow: 
+	* Go to content manage content interface
+	* Choose content
+	* Delete content
+	* Confirm once more
 
--Initial state
 
-*Go to web page on browser 
-
-*Login admin account
-
-*Go to content manage content interface
-
-*Choose content
-
-*Delete content
-
-*Confirm once more
-
-*Exit
-
-*End state
-
--Branching: 
-
-There is a confirm button if the admin delete something wrong
-
--Other activities: 
-
-Admin could delete contents by dragging them to the trash box 
-
-There will be a limited amount of memory to store what 'd been deleted, so admin could restore
+* End state: Exit
+* What could go wrong: 
+	* There is a confirm button if the admin delete something wrong
+* Other activities: 
+	* Admin could delete contents by dragging them to the trash box 
+	* There will be a limited amount of memory to store what 'd been deleted, so admin could restore
 
  
 
 ####Use case: Ban User
-
--Initial state
-
-*Go to web page on browser 
-
-*Login admin account
-
-*Go to content manage user interface
-
-*Choose user
-
-*Choose banned period
-
-*Put banned reason
-
-*Confirm 
-
-*Exit
-
-*End state
-
-
-
--Branching: 
-
-If the admin ban the wrong user, one can unbanned that user
-
--Other activities: 
-
-Unbanned the user
-
-
+* Initial state: Login admin account, go to user manage interface 
+* Normal flow
+	* Go to content manage user interface
+	* Choose user
+	* Choose banned period
+	* Put banned reason
+	* Confirm 
+* End state: Exit 
+* What could go wrong: 
+* Other activities: 
 
 #System architecture
 
