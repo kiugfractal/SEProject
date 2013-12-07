@@ -277,7 +277,8 @@ This is where data records are stored. Only get interact with logic tier.
 ## State Transitions
 * Main page: Main menu link to online user page and to group page.
 * Online users: Link to Group page and main page (public chat).
-* Login page to register page (e.g. if someone wants to register itself). And if login is successful main page appears. 
+* Login page to register page (e.g. if someone wants to register itself). 
+* If login is successful than main page appears.
 
 ## User Interface Pictures
 
