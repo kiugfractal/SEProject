@@ -369,86 +369,81 @@ Flexibility: Application can run with full function on all major browsers PC and
 
 Portability: The application run on a server so user can connect throw the net from anywhere.
 
-#User Interface
-
-User Interface 
-1: View 
-	1: Login 
-	2: Register
-	3: Main page
-	4: Online Users	
-	5: Individual chat
-	6: Groups 
-	7: Group chat
-	8: Profile
-	9: Setting
+# User Interface
+## Views
+1. Login 
+2. Register
+3. Main page
+4. Online Users	
+5. Individual chat
+6. Groups 
+7. Group chat
+8. Profile
+9. Setting
 	
-2:  Description
-	      1: Login:   
-        	 	User name 	
-              	 	User password
-              	 	Link to registration 
+## Description
+### Login   
+* User name 	
+* User password
+* Link to registration 
 
-	      2: Register: 
-               		User name
-               		User password
-               		First and last name
-               		Email address
+### Register 
+* User name
+* User password
+* First and last name
+* Email address
 
-	      3:Main page: 
-               		 a: Main menu
-	            	 b: Public chat 
-        		 c: Other Information
-                    		a: Main menu: 
-						Online users (includes link to group page)
-						Profile  
-						Search
-						Setting
-                     		b: Public chat: person can upload or update information, it will appear to everyone. 
+### Main page
+* Main menu
+* Public chat 
+* Other Information
+	* Main menu: 
+		* Online users (includes link to group page)
+		* Profile  
+		* Search
+		* Setting
+	* Public chat: person can upload or update information, it will appear to everyone. 
 		 			
-		 		c: Other information: 
-							About us (company information)
-							Contact Information 
-							Feedback  
+	* Other information: 
+		* About us (company information)
+		* Contact Information 
+		* Feedback  
      
-		4: Online Users: 
+### Online Users
 		
-			a: Students/ teachers chat
-			b: Link to group chat
-			c: Type bar
+* Students/ teachers chat: Right section of page shows teachers (name and room Number) who is online and left side of page shows students (name and room number) who are online. Online user shows those online users that are on contact list. 
+* Link to group chat: Bottom of page shows a link to group page.
+* Type bar: Updates and uploads will appear on main page.  
 
-			a: Students/ teachers chat: Right section of page shows teachers (name and room 
-			Number) who is online and left side of page shows students (name and room number) who 					are online. Online user shows those online users that are on contact list. 
 
-			b: Link to group chat: Bottom of page shows a link to group page.
+### Individual chat: 
+* Show users names, ID numbers and location (room number). 
+* Individual chat takes place when user clicks over other user name.
 
-			c: Type bar: updates and uploads will appear on main page. 
+### Groups: 
+* Shows list of groups where user is participating. User can chat by clicking over group name.  
 
-		4: Individual chat: 
-              		Show users names, ID numbers and location (room number). 
-              		Individual chat takes place when user clicks over other user name.
-		5: Groups: 
-          		Shows list of groups where user is participating. User can chat by clicking   
-             		over group name.  
-		6: Group chat:  
-             		Shows group members who are online and content that they have posted          
-             		e.g. files and comments.
-		7: Profile:
-              		User picture
-          		User application using name
-          		User first and last name 
-          		Email address
-		8: Setting: 
-          		Change password
-          		Delete group
-         	Change privacy settings etc. 
+
+### Group chat:  
+* Shows group members who are online and content that they have posted e.g. files and comments.
+
+### Profile:
+* User picture
+* User application using name
+* User first and last name 
+* Email address
+
+### Setting: 
+* Change password
+* Delete group
+* Change privacy settings etc. 
          	
-3: State Transitions
-                       Main page: Main menu link to online user page and to group page.
-                       Online users: Link to Group page and main page (public chat).
-                       Login page to register. And if login is successful main page appears. 
+## State Transitions
+* Main page: Main menu link to online user page and to group page.
+* Online users: Link to Group page and main page (public chat).
+* Login page to register. And if login is successful main page appears. 
 
-4: User Interface Pictures
+## User Interface Pictures
 
 ![Login & register page](Capture.PNG)
 
@@ -475,5 +470,4 @@ pre-hand phase and after-hand phase. We brainstormed, conceptualized, mapped and
 We estimated that at least two weeks is required to finish this project, however it took us 1 more week. Lacking of documenting and time management skills of our group members are the major reasons.
 We would like to continue this project and implement this in real life someday, and hopefully, the teachers and students will find this extra feature interesting.
 
-Hello this from my branch
 
