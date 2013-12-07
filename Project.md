@@ -79,93 +79,41 @@ As for system admin group, this user's role is to manage the whole system both i
 	* User may not have the authority to manage the content, you can only edit your own content or the one that is shared with you
 * Other activities: None 
 
-
-
-
 ####Use case: View Group's network
 
--Initial state
-
-*Go to web page on browser 
-
-*Login
-
-*Go to chat interface
-
-*Choose group 
-
-*The group's view will display
-
-*Upload contents or chat with users in the group
-
-*Exit
-
-*End state 
-
--Branching: 
-
-If the network has problem, the network view will not display
-
-Other activities: None 
-
-
-
+* Initial state: Go to chat interface
+* Normal flow:
+	* Choose group 
+	* The group's view will display
+	* Upload contents or chat with users in the group
+* End state: Exit
+* What could go wrong: If the network has problem, the network view will not display
+* Other activities: None 
 
 ####Use case: Track Other's Location
-
--Initial state
-
-*Go to web page on browser 
-
-*Login
-
-*Go to location interface
-
-*Choose user you want to track location
-
-*Display his/her location
-
-*Exit
-
-*End state
-
--Branching: 
-
-If the user you track does not share his/her location, it will not display
-
-The location can be delayed, thus of the data transfer processing
-
-
--Other activities: None
-
-
+* Initial state: Login to main's view  
+* Normal flow:
+	* Go to chat interface
+	* Choose user you want to track location
+	* Display his/her location
+* End state: Exit
+* What could go wrong:
+	* If the user you track does not share his/her location, it will not display
+	* The location can be delayed, thus of the data transfer processing
+* Other activities: None
 
 ####Use case: Create User
-
--Initial state
-
-*Go to web page on browser 
-
-*Choose Add User 
-
-*Put in account information
-
-*Confirm
-
-*Active account through email or sms message
-
-*Try login
-
-*Exit
-
-*End state
-
-
--Branching: 
-
-If creating user fails, the system will show errors for the admin( for example: the user or email is available already, the password is not sercure enough, compulsory information was missing)
-
--Other activities: 
+* Initial state: Login as admin, go to manage user interface
+* Normal flow:
+	* Choose Add User 
+	* Put in account information
+	* Confirm
+	* Active account through email or sms message
+	* Try login
+* End state: Exit
+* What could go wrong: 
+	* If creating user fails, the system will show errors for the admin( for example: the user or email is available already, the password is not sercure enough, compulsory information was missing)
+* Other activities: None
 
 Grant priviliges to users for helping admins manage the application  
 
