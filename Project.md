@@ -1,5 +1,13 @@
-#Introduction
-##Project description
+##Social Application: Requirements of the system 
+###Team member
+* Phuc Doan
+* Duc Do
+* Bang Nguyen
+* Zohaib Malik 
+###Version 1.0
+
+#Introduction [Done by Kinh Bang, Duc Do, Phuc Doan]
+##Project description 
 
 The system provides more features to help users communicate easier, by focusing on the friend networking by ID. Therefore, every user can go through his own group (group ID) or chat with others. One is able to update his own status or upload media files, or track his friend’s position.
 ##System description
@@ -13,7 +21,7 @@ The system will be built on 2 main sides:
 
 For deployment, the core code of application is stored on univerisity server and users can access to application as a web application.
 
-#Use cases
+#Use cases [Done by Phuc Doan]
 ##User group overview
 In the system, there are two user groups: normal user (teachers, student...) and system admin group.  For the teacher and student group, they can login using Metropolia ID and will be sort into specific group based on their role on Metropolia ID. One is available to go and check any group’s status, members or uploaded contents.
 
@@ -22,7 +30,7 @@ As for system admin group, this user's role is to manage the whole system both i
 ![my Flow chart](usercase.png)
 
 
-##Use case scenario 
+##Use case scenario [Done by Kinh Bang]
 
 ####Use case: Chat####
 * Initial state: Go to web page
@@ -145,7 +153,7 @@ As for system admin group, this user's role is to manage the whole system both i
 * What could go wrong: 
 * Other activities: 
 
-#System architecture
+#System architecture [Done by Phuc Doan]
 
 ##Overview
 ![System Arch](systemarch.png)
@@ -165,7 +173,7 @@ This is where data records are stored. Only get interact with logic tier.
 
 ![Modules](mainmodules.png)
 
-#Requirements 
+#Requirements [Done by Duc Do]
 
 ##Functional requirements 
 * Users can communicate each other by chat section and check people’s location 
@@ -196,7 +204,7 @@ This is where data records are stored. Only get interact with logic tier.
 * Flexibility: Application can run with full function on all major browsers PC and mobile: Chrome, Firefox, Safari (on IE) 
 * Portability: The application run on a server so user can connect throw the net from anywhere.
 
-# User Interface
+# User Interface [Done by Zohaib Malik]
 ## Views
 1. Login 
 2. Register
@@ -280,7 +288,7 @@ This is where data records are stored. Only get interact with logic tier.
 
 ![Individual Chat](Capture3.jpg)
 
-#Project management, self reflection
+#Project management, self reflection [Done by Duc Do]
 
 With this social network for indoor navigation, we gave our full effort and hardworking. We spend approximately 12 hours per person for three weeks by group work. Our real objective was to learn software engineering phases and documentations. We were really happy to work as team. The team spirit was really high and focusing. Be-sides, it was really nice to know multiculturalism as a group work. 
 
