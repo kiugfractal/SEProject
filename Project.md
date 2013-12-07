@@ -1,5 +1,6 @@
 #Introduction
 ##Project description
+
 The system provides more features to help users communicate easier, by focusing on the friend networking by ID. Therefore, every user can go through his own group (group ID) or chat with others. One is able to update his own status or upload media files, or track his friend’s position.
 ##System description
 This system is targeted to Metropolia students and teachers, in order to create a convenient and dynamic communication environment.
@@ -7,8 +8,8 @@ This system is targeted to Metropolia students and teachers, in order to create 
 The system will be built on 2 main sides:
 
 
-*The front-end: the layout, user interface where the users interact with the app.
-*The back-end: where the server will receive and process data from the users.Beside, this is where application retrive and store data in database.
+* The front-end: the layout, user interface where the users interact with the app.
+* The back-end: where the server will receive and process data from the users.Beside, this is where application retrive and store data in database.
 
 For deployment, the core code of application is stored on univerisity server and users can access to application as a web application.
 
@@ -24,122 +25,59 @@ As for system admin group, this user's role is to manage the whole system both i
 ##Use case scenario 
 
 ####Use case: Chat####
--Initial state
- *Go to web page on browser 
- 
- *Login
- 
- *Go to chat interface
- 
- *Choose friends you want to communicate 
- 
- *begin to chat 
- 
- *Exit 
- 
-*End state
-
--Branching:
-If friend is not online, user can choose other one to chat or decide to send an offline message to friend
-
-If network has problem, the message or attachment might not be received 
-
--Other activities: recieve message from other 
- 
-
+* Initial state: Go to web page
+* Normal Flow:
+	* Login
+	* Go to chat interface
+	* Choose friends you want to communicate 
+	* Begin to chat 
+* End state: Exit chat's view
+* What could go wrong:
+	* If friend is not online, user can choose other one to chat or decide to send an offline message to friend
+	* If network has problem, the message or attachment might not be received 
+* Other activities: recieve message from other 
 
 ####Use case: Upload content####
-
--Initial state
-
-*Go to web page on browser 
-
-*Login
-
-*Go to upload interface
-
-*Choose content you want to upload
-
-*Confirm upload acitivity
-
-*Content appear on application
-
-*Exit
-
-*End state
-
--Branching:
-
-If content format is wrong, system will ask user to input again.
-
-If content size is over the limit, system will ask user to input again.
-
-If the network has problem, the content cannot be uploaded.
-
-If the FTP has problem, the transfering data cannot be complete and your content will lose data compare to origin 
-file.
-
-Other activities: validating upload content 
-
- 
+* Initial state: Go to web page on browser 
+* Normal flow:
+	* Login
+	* Go to upload interface
+	* Choose content you want to upload
+	* Confirm upload acitivity
+	* Content appear on application
+* End state: Content appears on view. Exit upload's view.
+* What could go wrong:
+	* If content format is wrong, system will ask user to input again.
+	* If content size is over the limit, system will ask user to input again.
+	* If the network has problem, the content cannot be uploaded.
+	* If the FTP has problem, the transfering data cannot be complete and your content will lose data compare to origin file.
+* Other activities: validating upload content 
 
 ####Use case: Login
-
--Initial state
-
-*Go to web page on browser 
-
-*Put Username/Password
-
-*Confirm login
-
-*Reach to main page
-
-*End state 
-
-
--Branching:
-
-If password or username is wrong, prompt to ask email for reseting password or ask for signing up a new account
-
-If put wrong password or username more than 5 times in a row, lock that account until user unlock it through the email.
-
--Other activities:
-
-Reset password or create new account if you can login 
-
-Lock account if the password or username input is wrong 5 times in a row
-
-
-
-
+* Initial state: Go to web page on browser 
+* Normal flow:
+	* Reach Username/Password
+	* Show that login successful 
+	* Direct to main page
+* End state: Leave users at main's view 
+* What could go wrong:
+	* If password or username is wrong, prompt to ask email for reseting password or ask for signing up a new account
+	* If put wrong password or username more than 5 times in a row, lock that account until user unlock it through the email.
+* Other activities:
+	* Reset password or create new account if you can login 
+	* Lock account if the password or username input is wrong 5 times in a row
 ####Use case: Edit Content 
 
--Initial state
-
-*Go to web page on browser 
-
-*Login
-
-*Go to browse content interface
-
-*Choose content 
-
-*Edit content 
-
-*Confirm edit 
-
-*Exit 
-
-*End state 
-
--Branching: 
-
-User can forfeit editing by not confirm then exit
-
-User may not have the authority to manage the content, you can only edit your own content or the one that is shared with you
-
--Other activities: None 
+* Initial state: Go to browse content interface
+* Normal flow:
+	* Choose content 
+	* Edit content 
+	* Confirm edit 
+* End state: Show edited content
+* What could go wrong: 
+	* User can forfeit editing by not confirm then exit
+	* User may not have the authority to manage the content, you can only edit your own content or the one that is shared with you
+* Other activities: None 
 
 
 
