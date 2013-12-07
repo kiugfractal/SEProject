@@ -168,48 +168,33 @@ This is where data records are stored. Only get interact with logic tier.
 #Requirements 
 
 ##Functional requirements 
-
-Users can communicate each other by chat section and check people’s location 
-
-Users can see Pictures, videos and other media files can be shared. 
-
-Status can be updated in real-time, school’s group lists are categorized. 
-
-Adminstrator can manage users' account 
-
-Administrator can manage all the uploaded content
+* Users can communicate each other by chat section and check people’s location 
+* Users can see Pictures, videos and other media files can be shared. 
+* Status can be updated in real-time, school’s group lists are categorized. 
+* Adminstrator can manage users' account 
+* Administrator can manage all the uploaded content
 
 ##Non-functional requirements
 
 ####Usability
 
-The application should be easy to use, and the navigation buttons must be clear to locate in the header for example “Back button” to get back to the previous section must be large and easy to recognize. 
-Moreover, it should have just 1 tap to login, 2 taps to see and comment in updated contents. 
-
-
+* The application should be easy to use, and the navigation buttons must be clear to locate in the header for example 
+* * “Back button” to get back to the previous section must be large and easy to recognize. 
+* Moreover, it should have just 1 tap to login, 2 taps to see and comment in updated contents. 
 
 ####Efficiency
-
-
-We limit the file size to improve the processing speed to make users' experience better 
-
-The layout is simple to help new users use the application easier Functions like 'Search' or 'Help' are placed in the front layout in order to help the user
+* We limit the file size to improve the processing speed to make users' experience better 
+* The layout is simple to help new users use the application easier Functions like 'Search' or 'Help' are placed in the front layout in order to help the user
 
 ####Reliability 
-
-The admin of the system is “well trusted” so that user can update everything they want or share, talk about with their friends with no leaked information. 
-
-It is quite important to have the back-up server to prevent the sudden accident that could cause low loading or even crash down the whole application 
-
-The users' information is protected and sercured by system
+* The admin of the system is “well trusted” so that user can update everything they want or share, talk about with their friends with no leaked information. 
+* It is quite important to have the back-up server to prevent the sudden accident that could cause low loading or even crash down the whole application 
+* The users' information is protected and sercured by system
 
 ####Other non-functional requirements 
-
-Speed: The application should be smooth, fast in every devices (especially mobile by J query Mobile 
-
-Flexibility: Application can run with full function on all major browsers PC and mobile: Chrome, Firefox, Safari (on IE) 
-
-Portability: The application run on a server so user can connect throw the net from anywhere.
+* Speed: The application should be smooth, fast in every devices (mobile, tablet)
+* Flexibility: Application can run with full function on all major browsers PC and mobile: Chrome, Firefox, Safari (on IE) 
+* Portability: The application run on a server so user can connect throw the net from anywhere.
 
 # User Interface
 ## Views
