@@ -318,10 +318,7 @@ This is where data records are stored. Only get interact with logic tier.
 
 ##Main Modules 
 
-####Application module
-
-####Chat module
-
+![Modules](mainmodules.png)
 
 #Requirements 
 
