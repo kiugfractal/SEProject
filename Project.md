@@ -206,7 +206,7 @@ This is where data records are stored. Only get interact with logic tier.
 ####Other non-functional requirements 
 * Speed: The application should be smooth, fast in every devices (mobile, tablet)
 * Flexibility: Application can run with full function on all major browsers PC and mobile: Chrome, Firefox, Safari (on IE) 
-* Portability: The application run on a server so user can connect throw the net from anywhere.
+* Portability: The application run on a server so user can connect through the net from anywhere.
 
 # User Interface [Done by Zohaib Malik]
 ## Views
