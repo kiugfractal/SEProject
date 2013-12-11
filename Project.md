@@ -153,6 +153,9 @@ As for system admin group, this user's role is to manage the whole system both i
 * End state: Exit 
 * What could go wrong: 
 * Other activities: 
+* 
+
+![flow chart](chatscenario.png)
 
 #System architecture [Done by Phuc Doan]
 
